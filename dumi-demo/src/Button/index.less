@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  outline: none;
+  background-color: transparent;
+  padding: 4px 20px;
+  border: 1px solid #0ec87e;
+  cursor: pointer;
+
+  &.primary {
+    background-color: #0ec87e;
+    color: #fff;
+  }
+
+  &.round {
+    border-radius: 4px;
+  }
+
+  &.circle {
+    padding: 10px;
+    border-radius: 100%;
+  }
+
+  &.block {
+    display: block;
+  }
+
+  &:active {
+    &.primary {
+      background-color: #0ec87ecc;
+    }
+  }
+}
